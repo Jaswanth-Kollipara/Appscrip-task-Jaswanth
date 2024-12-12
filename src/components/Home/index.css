@@ -1,0 +1,91 @@
+.home-container{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.less-width{
+    width: 80%;
+}
+
+.home-ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.home-headder-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.home-headder-inner1{
+    display: flex;
+    align-items: center;
+}
+
+.home-headder-h1{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.home-headder-h2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+.home-headder-sp{
+    text-decoration: underline;
+}
+
+.home-headder-h3{
+    width: 50%;
+    font-size: 20px;
+    border-right: 1px solid rgb(202, 200, 200);
+}
+
+.home-hr{
+    width: 100%;
+    background-color: rgb(243, 241, 241);
+    height: 1px;
+    border: none;
+}
+
+.display-small{
+    display: none;
+}
+
+.display-large{
+    display: flex;
+}
+
+.home-main-container{
+    display: flex;
+}
+
+@media (max-width: 570px) {
+    .display-small{
+        display: flex;
+    }
+
+    .display-large{
+        display: none;
+    }
+
+    .less-width{
+        width: 100%;
+    }
+}
