@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Appscrip-task-Jaswanth.io/static/css/main.22741f35.css",
-    "main.js": "/Appscrip-task-Jaswanth.io/static/js/main.41a806b0.js",
+    "main.css": "/Appscrip-task-Jaswanth.io/static/css/main.24ca2b78.css",
+    "main.js": "/Appscrip-task-Jaswanth.io/static/js/main.2eb597e0.js",
     "index.html": "/Appscrip-task-Jaswanth.io/index.html",
-    "main.22741f35.css.map": "/Appscrip-task-Jaswanth.io/static/css/main.22741f35.css.map",
-    "main.41a806b0.js.map": "/Appscrip-task-Jaswanth.io/static/js/main.41a806b0.js.map"
+    "main.24ca2b78.css.map": "/Appscrip-task-Jaswanth.io/static/css/main.24ca2b78.css.map",
+    "main.2eb597e0.js.map": "/Appscrip-task-Jaswanth.io/static/js/main.2eb597e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.22741f35.css",
-    "static/js/main.41a806b0.js"
+    "static/css/main.24ca2b78.css",
+    "static/js/main.2eb597e0.js"
   ]
 }
