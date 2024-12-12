@@ -46,7 +46,7 @@ class Home extends Component{
         productData: [],
         apiStatus: apiStatusConstants.initial,
         isShow: false,
-        isIdeal: true,
+        isIdeal: false,
         selectedId: selectStatus[0].selectId,
     }
 
@@ -85,7 +85,7 @@ class Home extends Component{
         const {productData, isShow} = this.state
         const width=!isShow?"full-width":"less-width"
         return (
-          <div className={`${width}`}>
+          <div className={`products-container ${width}`}>
             <ul className="home-ul">
               {productData.map(product => (
                 <ProductCard productData1={product} key={product.id} />

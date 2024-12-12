@@ -7,6 +7,7 @@ const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/Appscrip-task-Jaswanth.io/" component={Home} />
+    <Route exact path="/Appscrip-task-Jaswanth.io/Appscrip-task-Jaswanth/" component={Home} />
     <Route component={NotFound} />
   </Switch>
 )
