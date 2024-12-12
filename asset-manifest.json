@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Appscrip-task-Jaswanth.io/static/css/main.22741f35.css",
+    "main.js": "/Appscrip-task-Jaswanth.io/static/js/main.82f9f640.js",
+    "index.html": "/Appscrip-task-Jaswanth.io/index.html",
+    "main.22741f35.css.map": "/Appscrip-task-Jaswanth.io/static/css/main.22741f35.css.map",
+    "main.82f9f640.js.map": "/Appscrip-task-Jaswanth.io/static/js/main.82f9f640.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22741f35.css",
+    "static/js/main.82f9f640.js"
+  ]
+}
