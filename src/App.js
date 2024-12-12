@@ -6,7 +6,7 @@ import './App.css'
 const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/filoffee/" component={Home} />
+    <Route exact path="/Appscrip-task-Jaswanth.io/" component={Home} />
     <Route component={NotFound} />
   </Switch>
 )
