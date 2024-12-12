@@ -95,14 +95,21 @@ class Home extends Component{
         )
     }
 
-    renderLoadingView = () => (
-        <div className="products-loader-container">
+    renderLoadingView = () => {
+      const {isShow} = this.state
+      const width=!isShow?"full-width":"less-width"
+      return (
+        <div className={`products-loader-container ${width}`}>
           <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
         </div>
-    )
+      )
+    }
     
-    renderFailureView = () => (
-        <div className="products-error-view-container">
+    renderFailureView = () => {
+      const {isShow} = this.state
+      const width=!isShow?"full-width":"less-width"
+      return (
+        <div className={`products-error-view-container ${width}`}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png"
             alt="all-products-error"
@@ -112,10 +119,11 @@ class Home extends Component{
             Oops! Something Went Wrong
           </h1>
           <p className="products-failure-description">
-            We are having some trouble processing your request. Please try again.
+            We are having some trouble processing your request. Please try again after some time.
           </p>
         </div>
-    )
+      )
+    }
 
     renderProductDetails = () => {
         const {apiStatus} = this.state
